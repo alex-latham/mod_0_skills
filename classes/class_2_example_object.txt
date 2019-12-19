@@ -1,0 +1,13 @@
+Object: Employee #4529
+
+Attributes:
+name: "Tori Spelling"
+duties: [ "host", "server", "shift supervisor" ]
+cumulative_earnings: 4569.34
+trainee: true
+
+Methods:
+name_change: (name = "T. Spelling")
+add_duty: (duties = [ "host", "server", "shift supervisor", "marketing manager" ])
+disburse_paycheck: (cumulative_earnings = 4569.34 + 100.25)
+graduate: (trainee = false)
