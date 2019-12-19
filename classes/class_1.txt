@@ -9,6 +9,6 @@ size (string)
 
 Methods:
 put_on_sale (reduces the price float value by 10% and appends " - SALE!" to the end of the name string)
-smother (changes he smothered boolean value to true)
+desmother (changes the smothered boolean value to false)
 make_vegetarian (removes all elements containing "sausage" or "bacon" from the fillings array)
 super_size (changes the size string value to "XXXL")

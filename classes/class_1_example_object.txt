@@ -1,0 +1,14 @@
+Object: Breakfast Burrito Combo #4
+
+Attributes:
+name: "Colorado Special"
+price: 8.99
+fillings: [ "potato", "egg", "sausage", "onion", "seasoning" ]
+smothered: true
+size: "M"
+
+Methods:
+put_on_sale: (price = price * 0.9 and name = "Colorado Special - SALE!")
+desmother: (smothered = false)
+make_vegetarian: (fillings = [ "potato", "egg", "onion", "seasoning" ])
+super_size: (size = "XXXL")
