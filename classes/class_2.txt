@@ -1,0 +1,13 @@
+Class: Employee
+
+Attributes:
+name (string)
+duties (array)
+cumulative_earnings (float)
+trainee (boolean)
+
+Methods:
+name_change (replaces name string with new string)
+add_duty (adds a new string value to end of duties array)
+disburse_paycheck (adds 100.25 to cumulative_earnings float)
+graduate (changes trainee boolean value to false)
